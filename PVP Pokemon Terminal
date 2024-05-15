@@ -1,0 +1,59 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+priority_queue<pair<int,string>> batalha (priority_queue<pair<int,string>> &fila){
+    while(fila.size() > 1) {
+    auto n = fila.top();
+    fila.pop();
+    auto m = fila.top();
+    fila.pop();
+
+    cout << n.second << " (" << n.first << ") x (" << m.first << ") " << m.second <<  " : ";
+
+    if(n.first == m.first) {
+        cout << "empate" << endl;
+    }
+    else if(n.first > m.first) {
+        cout <<n.second <<" venceu" << endl;
+        n.first = n.first - m.first;
+        fila.push(n);
+    }
+    else if(n.first < m.first) {
+        cout <<m.second <<" venceu" << endl;
+        m.first = m.first - n.first;
+        fila.push(m);
+    }
+}
+ return fila;
+}
+
+
+int main() {
+    unsigned long long int a;
+    cin >> a;
+
+    pair<int, string> par;
+
+    priority_queue<pair<int, string>> pvp;
+
+    for(unsigned long long int i; i < a; i++) {
+        cin >> par.second;
+        cin >> par.first;
+
+        pvp.push(par); 
+    }
+
+     batalha(pvp);
+
+    if(pvp.empty()) {
+        cout << "nenhum vencedor" << endl;
+    }
+    else{
+    auto n = pvp.top();
+    cout << n.second << " venceu com " << n.first << endl;
+    }
+
+
+    return 0;
+}
