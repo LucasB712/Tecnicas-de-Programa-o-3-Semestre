@@ -1,6 +1,9 @@
+#Técnicas de Programação
+Tecnicas de Programação
+
 Repositório destinado aos Códigos de Técnicas de Programação contextualizados
 para problemas do Cotidiano
 
 
-Lista de Códigos:
+#Lista de Códigos:
 -Lista de Itens Churrasco
