@@ -12,3 +12,6 @@ Repositório destinado a implementação de códigos contextualizados da matéri
 -PVP Pokemon terminal
 
 -Verificador de Arquivos Corrompidos
+
+-Verificador Números Primos Gêmeos
+
