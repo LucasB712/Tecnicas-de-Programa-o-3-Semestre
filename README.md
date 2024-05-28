@@ -1,9 +1,9 @@
-#Técnicas de Programação
-Tecnicas de Programação
+# Técnicas de Programação
+Técnicas de Programação 3°Semestre
 
-Repositório destinado aos Códigos de Técnicas de Programação contextualizados
-para problemas do Cotidiano
+Repositório destinado a implementação de códigos contextualizados da matéria em questão
 
+# Lista de Códigos
 
-#Lista de Códigos:
--Lista de Itens Churrasco
+-CheckList de itens Churrasco
+
