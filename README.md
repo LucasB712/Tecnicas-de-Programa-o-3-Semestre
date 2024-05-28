@@ -6,4 +6,5 @@ Repositório destinado a implementação de códigos contextualizados da matéri
 # Lista de Códigos
 
 -CheckList de itens Churrasco
-
+-Ordenação de notas
+-PVP Pokemon
